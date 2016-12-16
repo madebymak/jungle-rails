@@ -1,4 +1,4 @@
-<% @order_total = (product.total_price_cents / 100.00) %>
+<% @order_total += (product.total_price_cents / 100.00) %>
  <tr>
    <td>
      <%= image_tag product.product.image.tiny %>
