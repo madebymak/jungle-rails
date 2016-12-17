@@ -22,7 +22,7 @@
           <dd><%= @product.quantity %></dd>
           <dt>Price</dt>
           <dd><%= @product.price %></dd>
-          <br><br>
+          <br>
           <% if current_user %>
             <%= form_for [@product, @review] do |f| %>
               <dd>

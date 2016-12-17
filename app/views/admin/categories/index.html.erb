@@ -5,12 +5,14 @@
    </header>
 
    <div>
-     <%= link_to 'Add New', [:new, :admin, :category] %>
-   </div>
-
-   <div>
      <h3>Categories:</h3>
      <%= render @categories %>
+   </div></br>
+
+   <div>
+     <%= link_to 'Add New', [:new, :admin, :category], class: 'btn btn-primary' %>
    </div>
+
+
 
  </section>
